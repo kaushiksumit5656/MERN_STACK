@@ -1,6 +1,6 @@
 
   /* JavaScript Sync vs Async + Callback + Promise + Async/Await
-  Event Loop + Microtask + Macrotask – Placement Ready Notes
+  Event Loop + Microtask + Macrotask – 
 */
 
 console.log("=== START ===");
