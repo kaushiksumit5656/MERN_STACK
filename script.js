@@ -19,7 +19,7 @@ syncTask();
 console.log("3. Sync End");
 
 /* =======================
-   2️⃣ Asynchronous Code (setTimeout)
+   Asynchronous Code (setTimeout)
    ======================= */
 // ➤ Async code background me jata hai, baad me execute hota hai
 
@@ -32,9 +32,9 @@ setTimeout(() => {
 console.log("5. Async End");
 
 /* =======================
-   3️⃣ Callback Function
+    Callback Function
    ======================= */
-// ➤ Callback ek function hota hai jo dusre function ko pass karte hain
+//  Callback ek function hota hai jo dusre function ko pass karte hain
 
 function getDataCallback(name, callback) {
   console.log("\n7. Getting data for:", name);
@@ -49,7 +49,7 @@ getDataCallback("Sumit", function (result) {
 });
 
 /* =======================
-   4️⃣ Promise
+    Promise
    ======================= */
 // ➤ Promise future value ko represent karta hai
 // ➤ States: pending → fulfilled / rejected
@@ -77,7 +77,7 @@ getDataPromise()
   });
 
 /* =======================
-   5️⃣ Async / Await
+   Async / Await
    ======================= */
 // ➤ Async function Promise return karta hai
 // ➤ Await promise ke resolve hone ka wait karta hai
@@ -98,7 +98,7 @@ async function getDataAsyncAwait() {
 getDataAsyncAwait();
 
 /* =======================
-   6️⃣ Event Loop, Microtask, Macrotask
+    Event Loop, Microtask, Macrotask
    ======================= */
 // ➤ Promise.then → Microtask Queue
 // ➤ setTimeout → Macrotask Queue
@@ -116,7 +116,7 @@ Promise.resolve().then(() => {
 console.log("14. Event Loop Demo End");
 
 /* =======================
-   7️⃣ Real Life Example: API Simulation
+   Real Life Example: API Simulation
    ======================= */
 
 function fakeAPI() {
